@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <main className='flex '>
       <Sidebar/>
-      <div className='flex flex-col h-full  w-full justify-between' >
-        <Navbar />
+      <div className='flex flex-col h-screen  w-full ' >
+      <Navbar />
       <Chatapp/>
       </div>
     </main>

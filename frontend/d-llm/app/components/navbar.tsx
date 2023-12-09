@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const navbar = () => {
     return (
-        <div className='mx-auto w-full justify-between flex border-b p-5 font-unbounded '>
+        <div className='mx-auto w-full justify-between flex border-b p-5  font-unbounded'>
                <h1 className='text-4xl'>DLLM</h1>
                 <Image
           src={logo}
