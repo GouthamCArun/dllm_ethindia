@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@metamask/sdk-react": "^0.14.1",
+    "clsx": "^2.0.0",
+    "react-confetti-explosion": "^2.1.2",
+    "tailwind-merge": "^2.1.0"
+  }
+}

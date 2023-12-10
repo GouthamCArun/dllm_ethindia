@@ -13,6 +13,7 @@ export default function Home() {
       <Navbar />
       <Chatapp/>
       </div>
+      
     </main>
   )
 }
