@@ -1,9 +1,10 @@
 # Dllm
+
 <h1 align="center">
   <br>
-  <img src="first.png" alt="Markdownify" width="400">
+  <img src="logo_readme.png" alt="Markdownify" width="400">
   <br>
-  DLLM
+  NutriBuddy
   <br>
 </h1>
 
