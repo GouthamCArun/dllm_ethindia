@@ -5,6 +5,19 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
+let myVariable: any;
+
+export const setMyVariable = (value: string | undefined) => {
+  myVariable = value;
+};
+
+export const getMyVariable = () => {
+  return myVariable;
+};
+
+
+
+
 export const formatBalance = (rawBalance: string) => {
     const balance = (parseInt(rawBalance) / 1000000000000000000).toFixed(2);
     return balance;

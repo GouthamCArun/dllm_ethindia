@@ -1,17 +1,23 @@
 import React from 'react'
 import { useSDK, MetaMaskProvider } from "@metamask/sdk-react";
 import ConfettiExplosion,{ConfettiProps} from 'react-confetti-explosion';
-import { formatAddress } from './utils';
+import { formatAddress, setMyVariable } from './utils';
+import { connect } from 'http2';
+
 const connectwalletbutton = () => {
+    
     const { sdk, connected, connecting, account } = useSDK();
     const connect = async () => {
         try {
             await sdk?.connect();
             console.log(account);
+
+
         } catch (err) {
             console.warn(`No accounts found`, err);
         }
     };
+    setMyVariable(account);
     const largeProps: ConfettiProps = {
         force: 0.8,
         duration: 3000,
@@ -24,6 +30,7 @@ const connectwalletbutton = () => {
             sdk.terminate();
         }
     };
+   
     return (
         <div className='relative text-black'>
             {connected ? (
@@ -36,6 +43,7 @@ const connectwalletbutton = () => {
                 >
                     Disconnect
                 </button>
+               
                 </div>
             ) : (
                 <button disabled={connecting} onClick={connect} className='bg-[#220c3c] p-2 hover:bg-blue-900 text-white'>
@@ -44,6 +52,8 @@ const connectwalletbutton = () => {
             )}
         </div>
     )
+    
 }
+
 
 export default connectwalletbutton

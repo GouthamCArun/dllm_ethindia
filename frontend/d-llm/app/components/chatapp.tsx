@@ -40,11 +40,15 @@ const ChatApp: React.FC = () => {
     setMessages((prevMessages) => [...prevMessages, { id: prevMessages.length + 1, text: message, user: true }]);
   };
 
+  const replyMessage =(message: string) => {
+    setMessages((prevMessages) => [...prevMessages, { id: prevMessages.length + 1, text: message, user: false }]);
+  };
+
 
   return (
     <div className='mb-10'>
       <ChatSection messages={messages} />
-      <MessageBar onSendMessage={sendMessage} />
+      <MessageBar onSendMessage={sendMessage} onReply={replyMessage} />
       <Model isvisible={showModal} onClose={async () => setShowModal(false)}>
      <div className='flex flex-col justify-center items-center'>
      <h1 className='text-4xl font-unbounded text-black'>DLLM</h1>
