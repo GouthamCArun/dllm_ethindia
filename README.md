@@ -47,7 +47,12 @@ Employing cutting-edge blockchain technology, along with robust encryption, intr
    <div style="display:flex;">
     <img src="three.png" alt="Screenshot" width="33%">
     <img src="four.png" alt="Screenshot" width="33%">
-    <img src="five.png" alt="Screenshot" width="33%">
+    <br>
+   </div>
+   <br>
+   <div style="display:flex;">
+    <img src="three.png" alt="Screenshot" width="33%">
+    <img src="four.png" alt="Screenshot" width="33%">
     <br>
    </div>
 
