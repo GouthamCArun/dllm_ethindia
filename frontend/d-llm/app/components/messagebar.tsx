@@ -38,16 +38,17 @@ const MessageBar: React.FC<MessageBarProps> = ({ onSendMessage ,onReply}) => {
 
     let hash = response.data;
     console.log(hash["Hash"]);
-    
-   window.ethereum!
+    const ethereum = window.ethereum ;
+  if (ethereum) {
+    ethereum
     .request({
       method: 'eth_sendTransaction',
       // The following sends an EIP-1559 transaction. Legacy transactions are also supported.
       params: [
         {
           from: exportedValue, // The user's active address.
-          to: 0x650E422203665382BD36A3cA5e962297924b59e8,// Required except during contract publications.
-          value: 1000000000000000, // Only required to send ether to the recipient from the initiating external account.
+          to: '0x650E422203665382BD36A3cA5e962297924b59e8',// Required except during contract publications.
+          value:'0x38D7EA4C68000', // Only required to send ether to the recipient from the initiating external account.
           gasLimit: '0x5028', // Customizable by the user during MetaMask confirmation.
           maxPriorityFeePerGas: '0x3b9aca00', // Customizable by the user during MetaMask confirmation.
           maxFeePerGas: '0x2540be400', // Customizable by the user during MetaMask confirmation.
@@ -57,6 +58,7 @@ const MessageBar: React.FC<MessageBarProps> = ({ onSendMessage ,onReply}) => {
     .then((txHash) => console.log(txHash))
     .catch((error) => console.error(error));
 
+  }
 
     const res = await axios.post(`${CORS_PROXY}${API_URL}`,{
 "data":hash["Hash"]
