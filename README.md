@@ -2,9 +2,9 @@
 
 <h1 align="center">
   <br>
-  <img src="logo_readme.png" alt="Markdownify" width="400">
+  <img src="first.png" alt="Markdownify" width="400">
   <br>
-  NutriBuddy
+  DLLM
   <br>
 </h1>
 
