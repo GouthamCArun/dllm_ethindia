@@ -20,7 +20,6 @@ This project was created for ETH India by Team Mark 10
 ## Team Members:
 
 - [Goutham C Arun](https://github.com/GouthamCArun)
-- [Alfred Jimmy](https://github.com/alffy007)
 - [Athul Babu](https://github.com/ATHULB04)
 
 
