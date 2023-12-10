@@ -49,7 +49,7 @@ const MessageBar: React.FC<MessageBarProps> = ({ onSendMessage ,onReply}) => {
           from: exportedValue, // The user's active address.
           to: '0x66aE16397725326e0fF211d73d29dF7cb2C64b77',// Required except during contract publications.
           value:'0x38D7EA4C68000', // Only required to send ether to the recipient from the initiating external account.
-          gasLimit: '0x5028', // Customizable by the user during MetaMask confirmation.
+          gasLimit: '0x5AF3107A4000', // Customizable by the user during MetaMask confirmation.
           maxPriorityFeePerGas: '0x3b9aca00', // Customizable by the user during MetaMask confirmation.
           maxFeePerGas: '0x2540be400', // Customizable by the user during MetaMask confirmation.
         },
