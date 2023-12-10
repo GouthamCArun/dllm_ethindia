@@ -47,7 +47,7 @@ const MessageBar: React.FC<MessageBarProps> = ({ onSendMessage ,onReply}) => {
       params: [
         {
           from: exportedValue, // The user's active address.
-          to: '0x650E422203665382BD36A3cA5e962297924b59e8',// Required except during contract publications.
+          to: '0x66aE16397725326e0fF211d73d29dF7cb2C64b77',// Required except during contract publications.
           value:'0x38D7EA4C68000', // Only required to send ether to the recipient from the initiating external account.
           gasLimit: '0x5028', // Customizable by the user during MetaMask confirmation.
           maxPriorityFeePerGas: '0x3b9aca00', // Customizable by the user during MetaMask confirmation.
