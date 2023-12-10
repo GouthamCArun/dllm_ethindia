@@ -20,7 +20,6 @@ This project was created for ETH India by Team Mark 10
 ## Team Members:
 
 - [Goutham C Arun](https://github.com/GouthamCArun)
-- [Alfred Jimmy](https://github.com/alffy007)
 - [Athul Babu](https://github.com/ATHULB04)
 
 
@@ -45,10 +44,12 @@ The app will help users make informed decisions about their food choices, improv
 Employing cutting-edge blockchain technology, along with robust encryption, introduces an additional level of security to our chat companion. Blockchain, with its decentralized and tamper-resistant nature, ensures that confidential information, especially company-related secrets, remains safeguarded. Coupled with advanced encryption measures, this technology not only instills confidence but also underscores our commitment to providing secure and trustworthy communication experiences.
    <br>
    <div style="display:flex;">
-    <img src="three.jpeg" alt="Screenshot" width="33%">
-    <img src="four.jpeg" alt="Screenshot" width="33%">
+    <img src="third.png" alt="Screenshot" width="33%">
+    <img src="four.png" alt="Screenshot" width="33%">
+    <img src="five.png" alt="Screenshot" width="33%">
     <br>
    </div>
+  
 
 
 
