@@ -49,12 +49,8 @@ Employing cutting-edge blockchain technology, along with robust encryption, intr
     <img src="four.jpeg" alt="Screenshot" width="33%">
     <br>
    </div>
-# TECH STACKS USED
 
 
-
-# Backend Repo
-The Django Backend we used in this project [Django REST API](https://github.com/KevinOommen/HackSrm-Backend).
 
 
 
