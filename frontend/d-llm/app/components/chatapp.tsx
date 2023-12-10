@@ -31,9 +31,7 @@ const ChatApp: React.FC = () => {
  
   const [showModal, setShowModal] = useState(true);
   const [messages, setMessages] = useState<Message[]>([
-    { id: 1, text: 'Hello from User', user: true },
-    { id: 2, text: 'Hello from AI', user: false },
-    { id: 3, text: 'What is apple?', user: true },
+   
   ]);
 
   const sendMessage = (message: string) => {
