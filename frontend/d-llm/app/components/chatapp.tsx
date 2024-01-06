@@ -1,13 +1,11 @@
 "use client"
 // ChatApp.tsx
 import React, { useState } from 'react';
-import { useSDK, MetaMaskProvider } from '@metamask/sdk-react';
+import {MetaMaskProvider } from '@metamask/sdk-react';
 import MessageBar from './messagebar';
 import ChatSection from './chatsection';
 import Model from './model';
 import Connectwalletbutton from './connectwalletbutton';
-import logo from '../../assets/logo1.jpg';
-import Image from 'next/image'
 
 
 interface Message {
