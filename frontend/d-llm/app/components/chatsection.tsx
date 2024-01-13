@@ -12,7 +12,7 @@ const ChatSection: React.FC<ChatSectionProps> = ({ messages }) => {
                 key={message.id}
                 className={`p-2 flex flex-col rounded ${message.user == false ? 'text-white self-start' : '  self-end'} `}
             >
-                <span className={`${message.user == false ? ' text-slate-600 self-start' : '  self-end'}`}>{message.user == false ? 'AI' : 'User'}</span>
+                <span className={`${message.user == false ? ' text-slate-600 self-start' : '  self-end'}`}>{message.user == false ? 'Ai' : 'User'}</span>
                 <span className={`${message.user ==false ?'text-left':'text-right'} max-w-lg`}>{message.text}</span>
             </div>
         ));
